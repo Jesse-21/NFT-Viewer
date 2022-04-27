@@ -24,7 +24,7 @@ def run():
 @app.route('/v1/address', methods=['GET'])
 def api_all():
     reply = []
-    owner = '0x72d3a53f709652ee730ef9807fb4ab8771485a92'
+    owner = '0xC5633f7E465eBB1A9F855F93047134ef1ca61E49'
 
     url = f"https://api.opensea.io/api/v1/assets?owner={owner}&order_direction=desc&offset=0&limit=20"
 

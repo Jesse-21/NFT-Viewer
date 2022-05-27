@@ -3,8 +3,8 @@ import requests
 from flask import Flask, redirect, url_for, render_template, request, flash, jsonify
 from threading import Thread
 
-nftportal_key = os.environ['nftportal_key']
-opensea_key = os.environ['opensea_key']
+nftportal_key = os.environ['0f077c53-df81-4c8e-92bd-3dacc192d00c']
+opensea_key = os.environ['27ce5bb3cd0d4917885f87576f4aee5c']
 akapi_key = os.environ['akapi_key']
 app = Flask(__name__, template_folder='html')
 

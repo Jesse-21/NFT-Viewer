@@ -5,7 +5,7 @@ from threading import Thread
 
 nftportal_key = os.environ['0f077c53-df81-4c8e-92bd-3dacc192d00c']
 opensea_key = os.environ['27ce5bb3cd0d4917885f87576f4aee5c']
-akapi_key = os.environ['akapi_key']
+akapi_key = os.environ['0f077c53-df81-4c8e-92bd-3dacc192d00c']
 app = Flask(__name__, template_folder='html')
 
 
